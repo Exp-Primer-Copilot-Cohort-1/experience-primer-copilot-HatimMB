@@ -18,7 +18,7 @@
       "output": "",
       "comparison": "included",
       "timeout": 10,
-      "points": 1
+      "points": 3
     },
     {
       "name": "Step 2 javascript",
@@ -26,9 +26,9 @@
       "run": "[ $(cat .github/steps/-step.txt) -ge 2 ] || [ $(cat .github/steps/-step.txt) = X ]",
       "input": "",
       "output": "",
-      "comparison": "included",
+      "comparison": "",
       "timeout": 10,
-      "points": 1
+      "points": 2
     },
     {
       "name": "Step 3 Copilot Hub",
@@ -46,7 +46,7 @@
       "run": "[ $(cat .github/steps/-step.txt) -ge 4 ] || [ $(cat .github/steps/-step.txt) = X ]",
       "input": "",
       "output": "",
-      "comparison": "included",
+      "comparison": "",
       "timeout": 10,
       "points": 1
     },
@@ -56,7 +56,7 @@
       "run": "[ $(cat .github/steps/-step.txt) -ge 5 ] || [ $(cat .github/steps/-step.txt) = X ]",
       "input": "",
       "output": "",
-      "comparison": "included",
+      "comparison": "",
       "timeout": 10,
       "points": 1
     }
